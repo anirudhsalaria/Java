@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int x=5;
-        int y=8;
-        int z= x*y;
-        System.out.println(z);
+        for(int i=0; i<10; i++){
+            if(i%2==0){
+                System.out.println("even number="+i);
+            }
+        }
     }
 }

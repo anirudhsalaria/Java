@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java!");
-        for(int i=0; i<10; i++){
-             System.out.println(i);
-        }
+        int x=5;
+        int y=8;
+        int z= x*y;
+        System.out.println(z);
     }
 }

@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Main{
+public class q14_String_class_fn{
     public static void main(String[] args){
         String a = "Hello World";
         String b = "hello java";

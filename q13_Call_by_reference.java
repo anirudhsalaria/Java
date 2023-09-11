@@ -1,4 +1,4 @@
-public class Main{
+public class q13_Call_by_reference{
     public static void main(String[] args){
         int a =3;
         int b=4;

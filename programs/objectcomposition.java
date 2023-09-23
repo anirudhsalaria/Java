@@ -33,7 +33,11 @@ public class objectcomposition {
         Book b1 = new Book("Jujustu kaisen", "Gege Akutami");
         Book b2 = new Book("Demon slayer", "Koyoharu Gotouge");
 
-        Book bookarray[] = {b1,b2};
+        // Book bookarray[] = {b1,b2};
+        Book bookarray[];
+        bookarray = new Book[2];
+        bookarray[0]=b1;
+        bookarray[1]=b2;
         Library lib = new Library(bookarray);
         lib.listBooks();
     }

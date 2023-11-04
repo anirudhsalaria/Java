@@ -6,7 +6,7 @@ public class errors {
     public static void main(String[] args) {
         try {
             A();
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
                 System.out.println(e.getMessage());
             // System.out.println(e.getMessage());
         }

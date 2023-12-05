@@ -14,7 +14,7 @@ class students{
 
 
 
-public class q26 {
+public class q27 {
     public static void main(String[] args) {
         students student[] = new students[3];
         students obj1 = new students("Anirudh", "21bcs015");

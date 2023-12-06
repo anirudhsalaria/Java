@@ -13,6 +13,7 @@ class varargs {
 }
 
 public class q44 {
+
     public static void main(String[] args) {
         varargs var = new varargs();
         var.sum(4, 5, 6);
